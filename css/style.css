@@ -1,0 +1,20 @@
+body {
+    background-color: #fff;
+  }
+  
+  
+  
+  #myName {
+      color:darkgreen;
+      text-align: center;
+  } 
+  
+  .info {
+      text-align: center;
+      color:darkslategray;
+      font-weight: bold;
+      margin: 50px;
+      padding: 30px;
+      border-color: darkolivegreen;border-style:double ; border-width: 20px;
+       
+  }
