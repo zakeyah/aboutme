@@ -44,9 +44,9 @@ if (traveled.toLowerCase() === 'yes' || traveled.toLowerCase() === 'y'){
   };
   
 let Season = prompt('Do yo think i love winter ?')
-if(Season.toLowerCase() ==='yes'){
+if(Season.toLowerCase() ==='yes'|| Season.toLowerCase() ==='y'){
   alert('No ,winter is the worst');
-}else if(Season.toLowerCase() ==='no'){
+}else if(Season.toLowerCase() ==='no'|| Season.toLowerCase() ==='n'){
   alert('yes i hate winter');
   score += 1
   console.log('right answer');
@@ -67,10 +67,13 @@ while (attempts) {
     alert('too low.');
   }else if(userInput > "9"){
     alert('too high.');
-  }else{
-    alert('th')
+  
+    
   }
-
+if(attempts===1){
+  alert('9 is the correct answer');
+  break;
+}
   attempts -= 1;
   userInput = prompt('please try again you have : ' + attempts + ' remaining!');
 }
@@ -101,6 +104,7 @@ while(chancess){
 
 
   if (chancess === 1){
+    alert('the correct answer one of this italy,france,rome,greece,egypt,turkey,spain,ukraine,morocco,dubai');
     break;
   }
 
