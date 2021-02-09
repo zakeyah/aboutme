@@ -92,7 +92,7 @@ while(chancess){
     }
 
   }
-  if(correct=true){
+  if(correct===true){
     break;
   }
   chancess-=1;
