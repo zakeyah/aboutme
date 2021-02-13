@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-image: url(../images/b4.png)
   }
   
   
@@ -17,4 +17,8 @@ body {
       padding: 30px;
       border-color: darkolivegreen;border-style:double ; border-width: 20px;
        
+  }
+
+  nav{
+      color:green
   }
