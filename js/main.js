@@ -1,7 +1,7 @@
 'use strict';
 let score = 0;
 
-/*
+
 let userName = prompt('what\'s your name ?');
 
 console.log(userName);
